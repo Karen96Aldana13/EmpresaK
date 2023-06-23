@@ -3,7 +3,7 @@
 
     extract($_REQUEST);
 
-    $objConexion = Getconexion();
+    $objConexion = Getconexion()
 
     $Sentencia_Consulta = "INSERT INTO empleados (empIdentifiacion, empNombre, empFechaIngreso, 
     empCorreo, empGenero, empCargo) VALUES ('$_REQUEST[Identificacion_Usuario]','$_REQUEST[Nombre_Usuario]','$_REQUEST[Fecha_Ingreso]',
