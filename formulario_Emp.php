@@ -1,7 +1,9 @@
 <?php
-    require 'Conexion.php';
+    require      'Conexion.php';
 
-    objConexion = Getconexion();
+                            objConexion = Getconexion (    )
+        
+        ;
 
 ?>
 
@@ -15,7 +17,7 @@
 
         <h1>Indique el número de documento del empleado</h1>
 
-        <label for="Documento">Documento: </label>
+        <label for="     Documento">     Documento   : </label>
             <input type="text" id="Documento" name="Documento_Usuario">
             <br>
         <input name ="Consulta_Empleado" type="submit" value="Enviar">
