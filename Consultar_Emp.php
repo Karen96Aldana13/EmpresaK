@@ -9,7 +9,7 @@
 
     $Resultado = $objConexion->query($Sentencia_Consulta);
 
-    while($empleados=$Resultado->fetch_object())
+    whil($empleados=$Resultado->fetch_object())
     {
         echo "<br> Identificación del empleado: ".$empleados->empIdentifiacion;
         echo "<br> Nombre del empleado: ".$empleados->empNombre;
