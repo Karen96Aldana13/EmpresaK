@@ -1,7 +1,7 @@
 <?php
     require 'Conexion.php';
 
-    $objConexion = Getconexion();
+    objConexion = Getconexion();
 
 ?>
 
