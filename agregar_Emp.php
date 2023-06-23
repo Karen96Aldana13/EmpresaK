@@ -5,7 +5,7 @@
 
     $Sentencia_Consulta = "select idCargo, carNombre from cargos";
 
-    $Resultado = $objConexion -> query ($Sentencia_Consulta);
+    $Resultado = $objConexion -> query ($Sentencia_Consulta)
 
 ?>
 
