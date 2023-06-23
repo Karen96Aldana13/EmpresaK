@@ -5,7 +5,7 @@
 
     extract($_REQUEST);
 
-    $Sentencia_Consulta = "SELECT * FROM empleados WHERE empIdentifiacion = $_REQUEST[Documento_Usuario]";
+    $Sentencia_Consulta = "SELECT * FROM empleados WHERE empIdentifiacion = $_REQUEST[Documento_Usuario]"
 
     $Resultado = $objConexion->query($Sentencia_Consulta);
 
